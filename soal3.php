@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "root";
 $password = "";
-$db = "test_terakorp";
+$db = "testdb";
 
 $conn = new mysqli($server, $username, $password, $db);
 
@@ -19,7 +19,7 @@ Nama:
 <input type="text" name="nama"> <br>
 Alamat:
 <input type="text" name="alamat">
-<input type="submit" value="Searchx"></form>';
+<input type="submit" value="Search"></form>';
 
 $nama   = $_GET["nama"]   ?? "";
 $alamat = $_GET["alamat"] ?? "";  
